@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+.App {
+  max-width: 375px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 1.9rem;
+  
+  
+}
+
+.white-background{
+  background-color: white;
+  border-radius: 20px 20px 90px 20px;
+}
+
+html{
+  background-color: hsl(0, 0%, 86%);
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  padding-left: 1.2rem;
+  margin-top: 3rem;
+  grid-template-columns: 115px 115px 115px;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+
+
+.item {
+  margin-top: 4px;
+  padding: 0px;
+  max-width: 80px;
+
+}
+
+.input-XX {
+  color: black;
+  padding-left: 10px;
+}
+
+.dates {
+  color: hsl(0, 1%, 44%);
+  font-size: 0.76rem;
+}i
+
+
+.Button {
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  min-width: 30px;
+  padding: 0;
+}
+
+.button-image {
+  max-width: 100%;
+}
+
+
+
+input {
+  min-width: 5.30rem;
+  max-width: 5.30rem;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 86%);
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+;
+
+}
+
+input:hover {
+  border: 1px solid #844cfe;
+}
+
+.input-error {
+  border: 1px solid red;
+  padding-left: 10px;
+
+}
+
+.error-message {
+  color: red;
+  font-size: 7px;
+  margin-top: 5px;
+}
+
+h1 {
+  padding-left: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.6rem !important;
+  font-style: italic;
+  font-weight: 800;
+}
+
+span {
+  color: #844cfe;
+}
+
+.Button>button:nth-child(1) {
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+
+.invalid-label {
+  color: red;
+  font-style: italic !important;
+}
+
+.button {
+  padding: 0;
+}
+
+div.item {
+  
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02px;
+
+}
+
+span:nth-child(1) {
+  font-size: 14px;
+  letter-spacing: 2.87px;
+}
+
+
+/* Element | http://localhost:3000/ */
+
+.App > div:nth-child(2) > h1:nth-child(2) > span:nth-child(1) {
+  font-size: 3.6rem;
+}
+
+/* Element | http://localhost:3000/ */
+
+.App > div:nth-child(2) > h1:nth-child(3) > span:nth-child(1) {
+  font-size: 3.6rem;
+}
+
+/* Element | http://localhost:3000/ */
+
+.App > div:nth-child(2) > h1:nth-child(4) > span:nth-child(1) {
+  font-size: 3.6rem;
+}
